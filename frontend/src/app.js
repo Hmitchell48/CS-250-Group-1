@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/layout/Navbar.js';
 import Footer from './components/layout/Footer.js';
 import HomePage from './pages/HomePage';
-import LoginPage from './pages/LoginPage';
+import LoginPage from './pages/LoginPage.js';
 import RegisterPage from './pages/RegisterPage';
 import SeatSelectionPage from './pages/SeatSelectionPage';
 import SnackOrderingPage from './pages/SnackOrderingPage';
