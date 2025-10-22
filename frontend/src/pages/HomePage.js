@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { getMovies } from '../services/movieService'; // Import the API function
 import MovieCard from '../components/booking/MovieCard'; // Import a display component
 import LoadingSpinner from '../components/common/LoadingSpinner.js'; // Import a loading spinner
+import './HomePage.css'; // Import the HomePage styles
 
 function HomePage() {
   // 'movies' will hold our list of movies from the API
@@ -50,8 +51,6 @@ function HomePage() {
     <div className="home-page">
       <h1>Now Playing</h1>
       <div className="movie-list">
-        <h2>Test Content</h2>
-        <p>If you can see this, the routing is working!</p>
         {movies.length > 0 ? (
           movies.map(movie => (
             <MovieCard 
