@@ -25,7 +25,7 @@ function Navbar() {
   return (
     <nav style={navStyle}>
       <Link to="/" style={linkStyle}>
-        <h1>Smart Theaters</h1>
+        <h1>Smart Movie Theater Ticketing System</h1>
       </Link>
       <div style={navLinksStyle}>
         <Link to="/" style={linkStyle}>Movies</Link>
